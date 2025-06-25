@@ -1,0 +1,60 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# production
+build/
+dist/
+.next/
+out/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# testing
+coverage/
+*.lcov
+
+# misc
+*.tgz
+*.log
+.cache/
+.parcel-cache/
+firebase-debug.log
+.eslintcache
+.next/
+
+# local serverless
+.netlify/
+
+# optional: ignore your own local assets or credentials
+/assets/private/
+secrets/
