@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaLinkedin } from "react-icons/fa";
 
-import Kritarth from "../assets/Team/Kritarth.webp";
+import Kritarth from "../assets/Team/Kritarth.jpg";
 import Prakhar from "../assets/Team/Prakhar.webp";
 import Sheetesh from "../assets/Team/Sheetesh.webp";
 import Chanakya from "../assets/Team/Chanakya.jpeg";
@@ -22,7 +22,7 @@ function Team() {
             image: Prakhar,
             testimonial: `Leading with purpose and building the foundation of our tech-driven community.`,
             linkedin: "https://www.linkedin.com/in/prakharkumarsingh2992?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            premium: false,
+            premium: true,
         },
         {
             name: "Kritarth Singh",
@@ -31,17 +31,17 @@ function Team() {
             image: Kritarth,
             testimonial: `Fostering innovation and growth with relentless energy and shared vision.`,
             linkedin: "https://www.linkedin.com/in/kritarth-singh-chauhan-5877aa220/",
-            premium: false,
-        },
-        {
-            name: "Sheetesh Kumar",
-            role: "Co-Founder",
-            company: "Leadership Team",
-            image: Sheetesh,
-            testimonial: `Driving impact and excellence across our initiatives and projects.`,
-            linkedin: "https://www.linkedin.com/in/sheeteshkr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             premium: true,
         },
+        // {
+        //     name: "Sheetesh Kumar",
+        //     role: "Co-Founder",
+        //     company: "Leadership Team",
+        //     image: Sheetesh,
+        //     testimonial: `Driving impact and excellence across our initiatives and projects.`,
+        //     linkedin: "https://www.linkedin.com/in/sheeteshkr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        //     premium: true,
+        // },
         {
             name: "Chanakya Pandey",
             role: "Co-Founder",
@@ -58,7 +58,7 @@ function Team() {
             image: Sonu,
             testimonial: `Guiding and shaping minds with a deep commitment to mentorship.`,
             linkedin: "http://www.linkedin.com/in/i-sonugupta",
-            premium: false,
+            premium: true,
         },
         {
             name: "Dev Raj Singh",
